@@ -1,0 +1,42 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sms-navbar {
+    background: linear-gradient(90deg, #0a2a66, #103a8c);
+}
+
+.sms-card {
+    border: 0;
+    border-radius: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.sms-input {
+    border-radius: 10px;
+    border: 1px solid #d5dbe7;
+    min-height: 44px;
+}
+
+.sms-input:focus {
+    border-color: #2f61d0;
+    box-shadow: 0 0 0 0.2rem rgba(47, 97, 208, 0.15);
+}
+
+.sms-btn {
+    border-radius: 10px;
+    min-height: 42px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sms-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 576px) {
+    .sms-card {
+        padding: 1.2rem !important;
+    }
+}
